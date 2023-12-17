@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+.logo {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+}
+/* video {
+  background-size: cover;
+  background-blend-mode: color-dodge;
+  backdrop-filter: blur(15px);
+} */
+body {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  background-color: rgb(49, 43, 43);
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(); */
+  background-size: cover;
+  /* background-color: rgb(232, 230, 230); */
+}
+.container {
+  margin-top: 0;
+  position: absolute;
+  max-width: 655px;
+  backdrop-filter: blur(3px);
+  padding: 7px;
+  /* background-color: black; */
+  top: 7px;
+  /* background-color: rgb(193, 236, 193); */
+  /* margin: auto; */
+  border: 1px solid rgb(192, 222, 222);
+  /* border-color: aqua; */
+  margin-bottom: 3px;
+  height: 90vh;
+  width: 80vh;
+  border-radius: 15px;
+  /* padding: 0px; */
+  overflow-y: auto;
+  margin-bottom: 23px;
+  background: transparent;
+}
+h2 {
+  text-align: center;
+  text-decoration: line-through underline;
+  /* text-decoration: underline; */
+  font-size: large;
+  color: rgb(205, 198, 132);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: transparent;
+}
+.message {
+  background-color: rgb(176, 174, 174);
+  height: 6px;
+  min-width: 3px;
+  padding: 10px;
+  margin: 3px 3px;
+  /* border: 2px solid black; */
+  border-radius: 0 10px 10px 20px;
+}
+.mid {
+  /* color: black; */
+  text-align: center;
+  font-size: large;
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* border: 1px solid black; */
+  color: rgb(144, 63, 220);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: transparent;
+  clear: both;
+}
+.left {
+  /* color: black; */
+  float: left;
+  /* border: 1px solid black; */
+  color: rgb(175, 242, 169);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: transparent;
+  clear: both;
+}
+.right {
+  /* background-color: rgb(130, 231, 130);*/
+  /* color: black; */
+  float: right;
+  color: aqua;
+  /* border: 1px solid black; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: transparent;
+  clear: both;
+}
+/* .btn {
+  /* display: block;
+  margin: auto; */
+
+#send-container {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 985px;
+  width: 100%;
+}
+#messageInp {
+  color: rgb(147, 204, 204);
+  width: 40%;
+  /* border: 1px solid black; */
+  border: none;
+  text-emphasis-color: aqua;
+  border-top: 0;
+  background-color: rgb(49, 43, 43);
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid rgb(197, 227, 217);
+  border-radius: 3px;
+  height: 24px;
+}
+.btn {
+  cursor: pointer;
+  /* border: 2px solid black; */
+  background-color: rgb(45, 41, 41);
+  border-radius: 6px;
+  height: 27px;
+  color: aqua;
+  width: 70px;
+  margin-left: 15px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 12%;
+}
+i {
+  height: 3px;
+  width: 3px;
+  color: aquamarine;
+}
+.btn:hover,
+.message:hover {
+  /* transform: scale(1.3); */
+  transform: translateY(-3px);
+}
+.no {
+  background: rgb(49, 43, 43);
+
+  color: rgb(203, 112, 112);
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  clear: both;
+
+  /* display: inline-block; */
+  /* transform: translateY(-13px);
+  transform: translateY(-13px); */
+  /* float: right; */
+}
+.bx {
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
+.no:hover {
+  transform: scale(1.03);
+}
+/* .container:hover {
+  transform: scale(1.005);
+} */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #764747;
+} */
+/* .cen {
+} */
